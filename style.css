@@ -1,0 +1,56 @@
+/* Apply color and typography to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for headings using ID selector */
+#main-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #4CAF50; /* Green color */
+    margin-top: 50px;
+}
+
+/* Style for a paragraph using class selector */
+.text-box {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 40px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Style for an image */
+img.profile-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #4CAF50; /* Green border */
+}
+
+/* Adding some extra style for a button with class selector */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #45a049;
+}
+
+
